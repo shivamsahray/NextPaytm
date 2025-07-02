@@ -3,7 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "./*": "./src/*.tsx"
+    "./*": "./src/*.tsx",
+    "./button": "./src/button.tsx",
+    "./card": "./src/card.tsx",
+    "./code": "./src/code.tsx",
+    "./appbar": "./src/Appbar.tsx",
+    "./center": "./src/Center.tsx",
+    "./select": "./src/Select.tsx",
+    "./textinput": "./src/TextInput.tsx"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
@@ -24,4 +31,5 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   }
+  
 }
