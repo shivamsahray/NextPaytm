@@ -4,6 +4,9 @@ import { NextResponse } from "next/server";
 import { authOptions } from "../../lib/auth";
 // Or ensure that '../../lib/auth.ts' exists and exports 'authOptions'
 
+
+
+
 export const GET = async () => {
     const session = await getServerSession(authOptions);
     if (session.user) {
